@@ -1,0 +1,149 @@
+/*
+Styles Guide.
+0.Reset
+1.Layout
+2.Generic Items
+3.Parts of the Web
+4.List
+5.Form
+6.Animations
+----------------------
+
+Colors
+Color1 #2c3e50
+color2 #34495e
+color3 #3498db
+color4 #fff
+*/
+
+/*Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Layout*/
+body{
+    text-align: center;
+    font: 300 20px;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 25px;
+    background-image: url(./Assets/webdevcod.jpg);
+    image-orientation: flip;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.list-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-services .figure
+/*Generic Items*/
+.header{
+    height: 450px;
+    background-image: url(/Assets/webdevcod.jpg);
+}
+.navbar{
+    height: 60px;
+    background: #335d85;
+}
+.navbar a {
+    color: #fff;
+    padding: 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font: 60px;
+}
+.title {
+    margin-bottom: 40px; 
+    font: 120px;
+}
+    p {margin-bottom: 40px;}
+
+/*Parts of the web*/
+.content{
+    padding: 80px 0;
+
+}
+.who{
+    background: #2c3e50;
+    color: #fff;
+}
+.who p {
+    max-width: 1055px;
+    margin: 0 auto;
+}
+.Services{
+    background: #34495e;
+    color: #fff;
+}
+
+.Services p {
+    max-width: 1055px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.taxes{
+    background: #2c3e50;
+    color: #fff;
+}
+
+.localization{
+    background: #34495e;
+    color: #fff;
+/*List*/
+/*Form*/
+/*Animations*/
